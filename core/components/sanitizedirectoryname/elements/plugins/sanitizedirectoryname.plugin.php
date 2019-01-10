@@ -1,4 +1,13 @@
 <?php
+
+/*
+*
+*	Event: OnFileManagerDirCreate
+*	Author: Henning H. Haugen
+*	Requirements: MODX 2.3 and above
+*
+*/
+
 if ($modx->event->name != 'OnFileManagerDirCreate') {return;}
 
 //Finding the path of the directory created
